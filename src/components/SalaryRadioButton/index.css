@@ -1,0 +1,22 @@
+.radio-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  list-style-type: none;
+}
+
+.radio-input {
+  margin: 0px;
+  margin-right: 12px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.filter-label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}

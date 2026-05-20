@@ -1,0 +1,129 @@
+.link-item {
+  text-decoration: none;
+}
+
+.main-job-item-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+  list-style-type: none;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 16px;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.rating-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.location-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.location-employment-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-container,
+.employment-type-container {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.location-icon,
+.briefcase-icon {
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+.location-text,
+.employment-type-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0px;
+}
+
+.package {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hr-line {
+  width: 100%;
+  border: 1px solid #475569;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.description-text {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0px;
+}

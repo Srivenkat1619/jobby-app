@@ -1,0 +1,131 @@
+.job-details-card {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.brand-header-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.brand-logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.meta-info-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-job-title {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 5px 0;
+}
+
+.score-badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rating-star-icon {
+  color: #fbbf24;
+}
+
+.score-value {
+  color: #ffffff;
+  margin: 0;
+}
+
+.sub-details-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.geo-type-box {
+  display: flex;
+  gap: 20px;
+}
+
+.place-wrapper,
+.job-type-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ffffff;
+}
+
+.place-name,
+.type-name {
+  margin: 0;
+}
+
+.salary-text {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.horizontal-divider {
+  border: 0;
+  border-top: 1px solid #444444;
+  margin: 20px 0;
+}
+
+.desc-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-sub-title {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 15px 0;
+}
+
+.site-link {
+  color: #6366f1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.main-body-text,
+.culture-desc {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.tech-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.company-culture-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .company-culture-panel {
+    flex-direction: row;
+    align-items: center;
+  }
+  .culture-img {
+    max-width: 40%;
+  }
+}
