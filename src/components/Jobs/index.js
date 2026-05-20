@@ -1,5 +1,5 @@
 import Cookies from 'js-cookie'
-import Loader from 'react-loader-spinner'
+import { ThreeDots } from 'react-loader-spinner'
 import {Component} from 'react'
 import Header from '../Header'
 import EmploymentCheckbox from '../EmploymentCheckbox'
@@ -180,7 +180,7 @@ class Jobs extends Component {
 
   renderLoader = () => (
     <div className="loader-container" data-testid="loader">
-      <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
+      <ThreeDots color="#ffffff" height="50" width="50" />
     </div>
   )
 

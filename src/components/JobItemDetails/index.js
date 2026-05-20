@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie'
 import {Component} from 'react'
-import Loader from 'react-loader-spinner'
+import { ThreeDots } from 'react-loader-spinner'
 import JobItemCompleteDetails from '../JobItemCompleteDetails'
 import SimilarJobs from '../SimilarJobs'
 import Header from '../Header'
@@ -141,7 +141,7 @@ class JobItemDetails extends Component {
       case jobDetailsApiConstants.loading:
         return (
           <div className="loader-container" data-testid="loader">
-            <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
+            <ThreeDots color="#ffffff" height="50" width="50" />
           </div>
         )
       default:

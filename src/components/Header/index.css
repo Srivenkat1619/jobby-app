@@ -21,8 +21,8 @@
   display: flex;
   align-items: center;
   list-style-type: none;
+  padding: 0px;
 }
-
 
 .menu-item {
   color: #ffffff;
@@ -42,4 +42,17 @@
   border: none;
   cursor: pointer;
   outline: none;
+  width: auto;
 }
+
+@media screen and (max-width: 767px) {
+  .menu-item {
+    margin: 0px 10px;
+  }
+
+  .menu-item {
+    margin: 0px 5px;
+  }
+
+} 
+
