@@ -31,7 +31,8 @@ const Header = props => {
               Jobs
             </Link>
           </li>
-          <li>
+          </ul>
+          <div>
             <button
               type="button"
               className="logoutbutton"
@@ -39,8 +40,7 @@ const Header = props => {
             >
               Logout
             </button>
-          </li>
-        </ul>
+          </div>
       </div>
     </nav>
   )

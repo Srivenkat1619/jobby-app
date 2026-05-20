@@ -14,6 +14,7 @@
 
 .logo {
   width: 120px;
+  margin: 0px;
 }
 
 .menu {
@@ -22,15 +23,13 @@
   list-style-type: none;
 }
 
-.link {
-  margin: 0px 15px;
-}
 
 .menu-item {
   color: #ffffff;
   font-family: Roboto;
   text-decoration: none;
   font-weight: 500;
+  margin: 0px 15px;
 }
 
 .logoutbutton {
