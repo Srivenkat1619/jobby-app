@@ -3,7 +3,7 @@
   align-items: center;
   width: 100%;
   max-width: 400px;
-  border: 1px solid #475569;
+  border: 1px solid #aeb8c7;
   border-radius: 4px;
   background-color: transparent;
   margin-bottom: 20px;
@@ -24,7 +24,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #272727;
+  background-color: rgba(25, 25, 25, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border: none;
   border-left: 1px solid #475569;
   padding: 10px 20px;

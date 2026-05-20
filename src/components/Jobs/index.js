@@ -252,18 +252,18 @@ class Jobs extends Component {
   }
 
   renderSearchAndJobs = () => {
-    const {searchInput} = this.state
-    return (
-      <div className="jobs-data-container">
-        <SearchInput
-          searchInput={searchInput}
-          updateSearchInput={this.updateSearchInput}
-          searchIconClicked={this.searchIconClicked}
-        />
-        {this.renderJobsView()}
-      </div>
-    )
-  }
+  const {searchInput} = this.state
+  return (
+    <div className="jobs-data-container">
+      <SearchInput
+        searchInput={searchInput}
+        updateSearchInput={this.updateSearchInput}
+        searchIconClicked={this.searchIconClicked}
+      />
+      {this.renderJobsView()}
+    </div>
+  )
+}
 
   renderJobsView = () => {
     const {jobApiStatus} = this.state

@@ -1,8 +1,8 @@
 .navbar {
   display: flex;
   justify-content: center;
-  background-color: #272727;
-  padding: 15px 0px;
+  background-color: #f3efef;
+  padding: 6px 0px;
 }
 
 .nav-content {
@@ -25,34 +25,59 @@
 }
 
 .menu-item {
-  color: #ffffff;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0px 15px;
+  font-size: 18px;
+  background: linear-gradient(to right, #1b3617 0%, #3a75a2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
 }
 
-.logoutbutton {
-  background-color: #4f46e5;
-  color: white;
-  font-family: 'Roboto';
-  font-size: 14px;
-  border-radius: 4px;
-  padding: 8px 16px;
+.menu-item:hover {
+  opacity: 1;
+}
+
+.logout-button {
+  background: linear-gradient(to right, #1b3617 0%, #2e6181 100%);
+  color: #ffffff;
   border: none;
-  cursor: pointer;
-  outline: none;
-  width: auto;
+  border-radius: 8px; 
+  padding: 12px 18px; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer; 
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  opacity: 0.8;
+}
+
+.logout-button:hover {
+  opacity: 1;
+}
+
+.logout-button:active {
+  transform: scale(0.95);
 }
 
 @media screen and (max-width: 767px) {
-  .menu-item {
-    margin: 0px 10px;
+  .nav-content {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   .menu-item {
-    margin: 0px 5px;
+    margin: 0px 8px;
+    font-size: 15px;
   }
 
-} 
-
+  .logout-button {
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+}

@@ -1,5 +1,6 @@
 import {withRouter, Link} from 'react-router-dom'
 import Cookies from 'js-cookie'
+import logoImg from '../assets/jobby_logo.png'
 
 import './index.css'
 
@@ -15,7 +16,7 @@ const Header = props => {
       <div className="nav-content">
         <Link to="/">
           <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            src={logoImg}
             alt="website logo"
             className="logo"
           />
@@ -35,7 +36,7 @@ const Header = props => {
           <div>
             <button
               type="button"
-              className="logoutbutton"
+              className="logout-button"
               onClick={onClickLogout}
             >
               Logout

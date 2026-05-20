@@ -60,11 +60,10 @@ class Login extends Component {
     return (
       <div className="main-container">
         <div className="form-container">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            alt="website logo"
-            className="logo"
-          />
+          <div className="logo-container">
+            <span className="logo-icon">J</span>
+            <h1 className="logo-text">Jobby</h1>
+          </div>
           <form className="form" onSubmit={this.onClickSubmit}>
             <div className="input-container">
               <label className="label" htmlFor="username">
@@ -92,7 +91,7 @@ class Login extends Component {
                 placeholder="Password"
               />
             </div>
-            <button type="submit" className="button">
+            <button type="submit" className="login-button">
               Login
             </button>
             {showErrorMsg && <p className="error-message">*{errorMsg}</p>}

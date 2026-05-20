@@ -1,12 +1,23 @@
 .job-item-details-bg-container {
-  background-color: #000000;
-  min-height: 100vh;
-  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 70px);
+  background-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  overflow: hidden;
 }
 
 .job-details-success-view {
-  max-width: 1110px;
-  margin: 0 auto;
+  max-width: 80vw;
+  margin: auto;
+  overflow-y: auto; 
+  scroll-behavior: smooth;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  flex-grow: 1;
 }
 
 .similar-jobs-heading {
